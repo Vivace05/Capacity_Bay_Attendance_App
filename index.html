@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Attendance Application</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div id="container"> 
+
+  <h1>Attendance Application</h1>
+
+  <div id="form-container">
+    <label for="name">Student Name:</label>
+    <input type="text" id="name" placeholder="Enter student name">
+    
+
+    <label for="class">Class:</label>
+    <input type="text" id="class" placeholder="Enter class name">
+
+    <label for="seat">Seat Number:</label>
+    <input type="text" id="seat" placeholder="Enter seat number">
+
+    <button onclick="recordAttendance()">Record Attendance</button>
+  </div>
+</div>
+  <hr>
+
+  <div id="attendance-list">
+    <h2>Attendance List:</h2>
+    <ul id="list"></ul>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
